@@ -1,0 +1,16 @@
+:root {
+  --color-soft-white: #faf9f6;
+  --color-paper: #f8f5ef;
+  --color-parchment: #f5f1e8;
+  --color-ink: #292722;
+  --color-acid-lime: #d0ff14;
+
+  --color-background: var(--color-paper);
+  --color-text: var(--color-ink);
+  --color-selection: var(--color-acid-lime);
+}
+
+::selection {
+  background-color: var(--color-selection);
+  color: var(--color-ink);
+}

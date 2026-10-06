@@ -1,4 +1,7 @@
 ---
+import Nav from '../components/nav.astro';
+import '../styles/fonts.css';
+import '../styles/palette.css';
 ---
 
 <html lang="en">
@@ -8,9 +11,16 @@
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Fin de siècle</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Nav name="Fin de siècle" />
 	</body>
 </html>
+
+<style>
+	:global(html) {
+		background-color: var(--color-background);
+		color: var(--color-text);
+	}
+</style>
