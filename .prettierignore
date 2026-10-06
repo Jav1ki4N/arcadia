@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+package-lock.json
+src/assets/
+public/
+AGENTS.md
+CLAUDE.md
+README.md.temp
